@@ -95,14 +95,14 @@ int main() {
     ofile.open("F:\math.txt");
     cout << "请输入题目数量以及题目中出现的最大数:" << endl;
     cin >> n >> Max;
-    cout << "请输入想要的运算符（+-*/）" << endl;
+    cout << "请输入想要的运算符" << endl;
     getchar();
     gets_s(str);
-    cout << "是否需要小数？（1/0）";
+    cout << "是否需要小数？";
     cin >> decimal;
-    cout << "是否需要括号？（1/0）";
+    cout << "是否需要括号？";
     cin >> brackets;
-    cout << "是否写入文件？（1/0）";
+    cout << "是否写入文件？";
     cin >> fst;
 
     for (int i = 0; i < strlen(str); i++)
