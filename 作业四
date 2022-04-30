@@ -92,7 +92,7 @@ void priduction()                                  /************输出算式****
 
 
 int main() {
-    ofile.open("F:\math.txt");
+    ofile.open("C:\\Users\\19767\\Desktop\\math.txt");
     cout << "请输入题目数量以及题目中出现的最大数:" << endl;
     cin >> n >> Max;
     cout << "请输入想要的运算符" << endl;
